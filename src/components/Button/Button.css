@@ -1,0 +1,17 @@
+.primary-btn {
+    /* margin: 30px 259px; */
+    margin-right: 8px;
+    padding: 10px 27px;
+    background: #000;
+    border: none;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0.5);
+    color: #fff;
+    width: 190px;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 11px;
+}

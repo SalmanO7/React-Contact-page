@@ -1,0 +1,36 @@
+.head-section {
+    margin: 20px auto; /* Center the element horizontally and add vertical margin */
+    max-width: 770px; /* Set a maximum width for responsiveness */
+    width: 90%; /* Set a percentage width for responsiveness */
+    /* height: 200px; */
+    /* background: #000; */
+}
+
+/* Styles for headings */
+.head-heading {
+    font-weight: 800;
+}
+
+/* Styles for buttons */
+.btns {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+/* Styles for paragraph */
+.head-para {
+    font-weight: 500;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .head-section {
+        margin: 20px auto; /* Center the element horizontally and add vertical margin */
+        max-width: 90%; /* Set a maximum width for responsiveness */
+    }
+
+    .btns {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center buttons horizontally */
+    }
+}

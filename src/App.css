@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: #000;
+  color: #ffff; */
+  font-family: sans-serif;
+
+}
+
+.container {
+  min-width: 1280px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
